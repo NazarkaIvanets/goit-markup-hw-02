@@ -112,15 +112,16 @@
   .section-title {
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.17;
+    line-height: 42px;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-color);
   }
 
   .team {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 19px;;
   }
 
   .container {
@@ -136,7 +137,7 @@
 
   .profession {
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 19px;
     color: var(--main-text-color);
   }
   
@@ -144,14 +145,25 @@
     color: var(--main-color);
   }
   
-  .list-item {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+  .list-item-team {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     color: var(--title-color);
   }
   
+  .list-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+  }
+
   .contacts {
     font-style: normal;
     color: var(--main-color);   
@@ -165,7 +177,7 @@
     line-height: 24px;
     /* or 171% */   
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    color: rgba(255, 255, 255, 0.6);
   }
   
   /*кнопка индекс*/
@@ -187,15 +199,16 @@
 
   /*кнопка портфолио*/
   .button_2 {
-    font-weight: bold;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.88;
-    align-items: center;
+    line-height: 26px;
     text-align: center;
-    letter-spacing: 0.06em;
-    color: #000000;
+    letter-spacing: 0.03em;
+    color: #212121;
     background-color: var(--main-background-color);
-    border-radius:3px;
+    border-radius:4px;
     border: 0;
     background: var(--secondary-background-color);
     margin-top: 10px;   
