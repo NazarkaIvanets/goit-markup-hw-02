@@ -165,7 +165,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var (--main-text-color);
+  color: var(--main-text-color);
 }
 
 .projects-list-title {
@@ -173,7 +173,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var (--title-color);
+  color: var(--title-color);
 }
 
 .contacts {
