@@ -45,6 +45,10 @@ address {
   color: var(--title-color);
 }
 
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .main-title {
   font-weight: 900;
   font-size: 44px;
